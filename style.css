@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&family=Roboto:wght@100&display=swap");
 
 * {
@@ -232,12 +231,16 @@ a {
   border-radius: 4%;
   color: rgb(135, 164, 56);
   border: rgb(139, 179, 52) solid;
+  /* background-color: #000000; */
+  
   
 
   text-shadow: 
   0 0 0.125em rgb(125, 152, 15),
   0 0 0.5em currentColor;
   box-shadow: 0 0 3em 0 rgb(143, 179, 52);
+
+  
 
 }
 
@@ -316,13 +319,25 @@ a {
 .timeline ul li:hover::after {
   background-color: rgb(185, 214, 106);
   
+  
 }
 
 .timeline-content:hover {
-  background-color: rgb(145, 203, 38);
+  background-color: rgb(172, 246, 14);
   color:white;
   text-shadow: none;
-  opacity: 1;
+  /* opacity: 0; */
+
+  text-shadow: 
+  0 0 0.125em rgb(125, 152, 15),
+  0.5em 0.5em 0.5em currentColor;
+  box-shadow: 0.2em 0.2em 0.2em 0em rgb(143, 179, 52);
+  
+
+  /* Finally this $H!T is working */
+  transition-property: all;
+  transition-delay: 100ms;
+  transition-duration: 1s;
   
 }
 
