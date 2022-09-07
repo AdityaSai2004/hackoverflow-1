@@ -12,8 +12,12 @@ body {
     margin-top: 0.6rem;
 }
 
+a:hover {
+    background-color: black;
+}
+
 /* Navbar style starts */
-nav{
+nav {
     background-color: black;
 }
 .navbar-custom {
@@ -41,13 +45,6 @@ nav{
 
 .nav-item {
     color: blue;
-}
-
-a {
-    font-size: 18px;
-}
-a:hover {
-    background-color: black;
 }
 
 #logo {
@@ -167,21 +164,18 @@ a:hover {
     font-size: 1.5rem;
     font-weight: 400;
 }
-.timeline-event-text{
+.timeline-event-text {
     font-size: 1.1rem;
 }
 .timeline-container {
     border-left: 3px solid #ffec9d;
-    border-bottom-right-radius: 4px;
-    border-top-right-radius: 4px;
     background: #727cf517;
-    margin: 0 auto;
+    margin: auto;
     letter-spacing: 0.2px;
     position: relative;
     line-height: 1.4em;
     font-size: 1.03em;
     padding: 50px;
-    list-style: none;
     text-align: left;
     max-width: 40%;
 }
@@ -295,7 +289,6 @@ a:hover {
     right: -55.8px;
 }
 
-
 /* timeline ends */
 
 /* Sponsors Styles */
@@ -304,14 +297,26 @@ a:hover {
     height: 0px;
     transition: 1s;
 }
-.sponsors{
-    display:flex;
+.sponsors {
+    display: flex;
     margin-top: 3rem;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
-.tier{
+
+.sponsor-request{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    line-height: 1.1rem;
+}
+
+.sponsor-request-text a{
+    color:white
+}
+.tier {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -319,14 +324,14 @@ a:hover {
     width: 100%;
 }
 
-.tier-text{
+.tier-text {
     margin: 2rem 0rem 2rem 0rem;
 }
-.tier > ul > li{
+.tier > ul > li {
     list-style: none;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -336,17 +341,25 @@ a:hover {
 .card {
     background-color: black;
 }
-.cards_item{
-    border: 1px solid white !important  ;
+.cards_item {
     border-radius: 10%;
 }
 
 .card_image > a > img {
     width: 225px;
-	object-fit: scale-down;
-	border: 1px solid black;
+    object-fit: scale-down;
     border-radius: 10%;
 }
+.card_title a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.card_title a:hover {
+    text-decoration: underline;
+    background: none;
+  }
 
 /* sponsor style ends */
 
@@ -364,6 +377,7 @@ footer {
     align-items: center;
     width: 100%;
     bottom: 0;
+    margin-top: 2rem;
 }
 
 .footer-links {
