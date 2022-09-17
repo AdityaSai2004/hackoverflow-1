@@ -13,10 +13,10 @@ const countdown = () => {
   const textMinute = Math.floor((gap % hours) / minutes);
   const textSecond = Math.floor((gap % minutes) / seconds);
 
-  document.getElementById("day").innerText = textDay;
-  document.getElementById("hour").innerText = textHour;
-  document.getElementById("minute").innerText = textMinute;
-  document.getElementById("second").innerText = textSecond;
+  document.querySelector(".day").innerText = textDay;
+  document.querySelector(".hour").innerText = textHour;
+  document.querySelector(".minute").innerText = textMinute;
+  document.querySelector(".second").innerText = textSecond;
 };
 
 setInterval(countdown, 1000);
