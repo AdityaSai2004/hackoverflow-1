@@ -20,6 +20,7 @@ a:hover {
 nav {
     background-color: black;
 }
+
 .navbar-custom {
     color: black;
     background-color: black;
@@ -28,6 +29,7 @@ nav {
 .btn-space {
     margin-right: 10px;
 }
+
 .register-button-small {
     color: #000000;
     font-size: larger;
@@ -36,6 +38,7 @@ nav {
     padding-right: 1rem;
     padding-left: 1rem;
 }
+
 .navbar-brand {
     position: absolute;
     top: 20px;
@@ -51,7 +54,7 @@ nav {
     height: 60px;
 }
 
-.navbar-nav > li {
+.navbar-nav>li {
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -83,9 +86,11 @@ nav {
 .pointer {
     font-size: 2.5rem;
 }
+
 .number {
     font-size: 3rem;
 }
+
 .logo {
     display: flex;
     padding: 2rem;
@@ -159,13 +164,16 @@ nav {
     font-family: monospace;
     color: #ffde58;
 }
+
 .timeline-event-name {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
 .timeline-event-text {
     font-size: 1.1rem;
 }
+
 .timeline-container {
     border-left: 3px solid #ffec9d;
     background: #727cf517;
@@ -230,10 +238,11 @@ nav {
     top: 0;
 }
 
-.timeline > .event > p {
+.timeline>.event>p {
     background-color: #0a0b16;
     position: relative;
 }
+
 .timeline-container .event:before {
     left: -207px;
     content: attr(data-date);
@@ -296,6 +305,7 @@ nav {
     height: 0px;
     transition: 1s;
 }
+
 .sponsors {
     display: flex;
     margin-top: 3rem;
@@ -303,7 +313,7 @@ nav {
     align-items: center;
 }
 
-.sponsor-request{
+.sponsor-request {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -312,9 +322,10 @@ nav {
     line-height: 1.1rem;
 }
 
-.sponsor-request-text a{
-    color:white
+.sponsor-request-text a {
+    color: white
 }
+
 .tier {
     display: flex;
     flex-direction: column;
@@ -326,7 +337,8 @@ nav {
 .tier-text {
     margin: 2rem 0rem 2rem 0rem;
 }
-.tier > ul > li {
+
+.tier>ul>li {
     list-style: none;
 }
 
@@ -340,15 +352,17 @@ nav {
 .card {
     background-color: black;
 }
+
 .cards_item {
     border-radius: 10%;
 }
 
-.card_image > a > img {
+.card_image>a>img {
     width: 225px;
     object-fit: scale-down;
     border-radius: 10%;
 }
+
 .card_title a {
     color: white;
     text-decoration: none;
@@ -358,7 +372,7 @@ nav {
 .card_title a:hover {
     text-decoration: underline;
     background: none;
-  }
+}
 
 /* sponsor style ends */
 
@@ -384,7 +398,7 @@ footer {
     padding: 10px 10px;
 }
 
-.footer-links > a > img {
+.footer-links>a>img {
     padding: 5px 5px;
 }
 
@@ -613,6 +627,7 @@ footer {
         1456px 1459px #fff, 1527px 1324px #fff;
     animation: animStar 50s alternate infinite;
 }
+
 #stars:after {
     content: " ";
     position: absolute;
@@ -907,6 +922,7 @@ footer {
         1831px 458px #fff, 1884px 1878px #fff, 814px 1013px #fff;
     animation: animStar 100s alternate infinite;
 }
+
 #stars2::after {
     content: " ";
     position: absolute;
@@ -983,6 +999,7 @@ footer {
     from {
         transform: translateY(0px);
     }
+
     to {
         transform: translateY(-2000px);
     }
